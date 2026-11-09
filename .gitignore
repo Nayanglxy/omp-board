@@ -1,0 +1,16 @@
+# runtime data — event log, artifact bodies, board-run transcripts, terminal
+# link state. Machine-local and may contain private session content.
+events/
+artifacts/
+sessions/
+live/
+inbox/
+
+# captured session transcript dumps (large, may contain private data)
+omp-session-*.html
+*.local.html
+
+# node
+node_modules/
+npm-debug.log*
+.DS_Store

@@ -1,0 +1,16 @@
+{
+  "name": "omp-board",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Localhost review board for omp agent sessions: chat-style transcripts with math and code, review comments sent back into the session, waiting-on-you alerts. Zero dependencies.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "show": "node show.mjs",
+    "test": "node smoke.mjs"
+  },
+  "license": "MIT"
+}
